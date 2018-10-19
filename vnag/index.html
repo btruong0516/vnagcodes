@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Vietnamese Christian Assembly of God Church</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="address=no" />
+    <link rel="stylesheet" href="css/w3.css" />
+    <link rel="stylesheet" href="css/w3-theme-black.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+
+</head>
+
+<body>
+
+    <style>
+        .w3-padding-64 {
+            padding-top: 0px !important; /*changed from 64px*/
+            padding-bottom: 5px !important; /*changed from 64px*/
+        }
+    </style>
+
+    <style>
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Next & previous buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+                background-color: rgba(0,0,0,0.8);
+            }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 13px;
+            width: 13px;
+            margin: 20px 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+            .active, .dot:hover {
+                background-color: #717171;
+            }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .jumbotron {
+            padding: 10px;
+        }
+
+        @media screen and (min-width:100px) and (max-width:600px) {
+            .imgslide {
+                width: 100%;
+                margin: auto;
+                min-height: 243px;
+                padding-top: 25px;
+            }
+        }
+
+        @media screen and (min-width:601px) {
+            .imgslide {
+                width: 100%;
+                margin: auto;
+                min-height: 373px;
+            }
+        }
+    </style>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <ul class="w3-navbar w3-theme-d2 w3-left-align">
+            <!--right bar menu-->
+            <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+                <a class="w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            </li>
+            <!--left bar home-->
+            <li id="webLogo"><a href="index.html" class="w3-teal"><i class="fa fa-home w3-margin-right"></i>Vietnamese Christian Assembly of God Church</a></li>
+            <li id="mobileLogo"><a href="index.html" class="w3-teal"><i class="fa fa-home w3-margin-right"></i>VNAG</a></li>
+
+            <!--navigation menu selection-->
+            <li class="w3-hide-small"><a href="beliefs.html" class="w3-hover-white">Our Beliefs</a></li>
+            <li class="w3-hide-small"><a href="ministry.html" class="w3-hover-white">Ministries</a></li>
+            <li class="w3-hide-small"><a href="events.html" class="w3-hover-white">Events</a></li>
+            <li class="w3-hide-small"><a href="youngadults.html" class="w3-hover-white">Young Adults</a></li>
+            <li class="w3-hide-small"><a href="education.html" class="w3-hover-white">Education</a></li>
+            <li class="w3-hide-small"><a href="contact.html" class="w3-hover-white">Contact</a></li>
+            <!--<li class="w3-hide-small w3-right"><a href="vn/trangchu.html" class="w3-hover-teal" title="Search">Tiê&#769;ng Viê&#803;t</a></li>-->
+        </ul>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+            <ul class="w3-navbar w3-left-align w3-theme">
+                <li><a href="beliefs.html">Our Beliefs</a></li>
+                <li><a href="ministry.html">Ministries</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="youngadults.html">Young Adults</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!--<li><a href="vn/trangchu.html">Tiê&#769;ng Viê&#803;t</a></li>-->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Image Header -->
+    <div class="w3-display-container w3-animate-opacity">
+
+        <div class="slideshow-container">
+
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/slide1.jpg" class="imgslide" />
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/slide2.jpg" class="imgslide" />
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/slide3.jpg" class="imgslide" />
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/slide4.jpg" class="imgslide" />
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/slide5.jpg" class="imgslide" />
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/slide6.jpg" class="imgslide" />
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/slide7.jpg" class="imgslide" />
+                <div class="text"></div>
+            </div>
+
+            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+        </div>
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 6000); // Change image every 2 seconds
+            }
+        </script>
+
+    </div>
+
+    <!-- Team Container -->
+    <div class="w3-container w3-padding-64 w3-center" id="team">
+        <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+
+            <div class="w3-third w3-margin-bottom">
+                <b>ANNOUNCEMENT</b>
+                <br />
+                <a class="twitter-timeline" href="https://twitter.com/vnagchurch">Tweets by vnagchurch</a>
+                <script async=async async=async async=async async=async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <b>WELCOME</b><br />
+                <div class="leftContent">
+                    <span class="leftContent">
+
+                        <br />
+                        Vietnamese Christian Assembly of God Church is a growing, family-oriented
+                        church in Charlotte, NC.
+                    </span>
+                    <br />
+                    <br />
+                    <span class="leftContent">
+                        Our Sunday morning service is
+                        bilingual. We sing both English &amp; Vietnamese lyrics. Our message is
+                        translated each week, so everyone can understand God's Word.
+                    </span>
+                    <br />
+                    <br />
+                    Our children &amp; youth participate in the Sunday morning bilingual
+                    worship. The children's &amp; youth ministries are mostly in English,
+                    to ensure they can easily understand.
+                    <br />
+                    <br />
+                    <span class="leftContent">
+                        Whether you are new to Charlotte,
+                        new to the Christian faith, or just looking for answers in life, we
+                        welcome you to join us.
+                    </span>
+                    <br />
+                    <br />
+                </div>
+
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <b>OUR MISSION </b>
+                <div class="leftContent">
+                   <br />
+                    Worship - We gather in our services to worship God together &amp;
+                    prepare to worship him throughout the week in our lives.
+                    <br />
+                    <br />
+                    Evangelism - Both through spreading the Good News of Jesus Christ here
+                    in Charlotte &amp; supporting missions outreach around the world,
+                    including in Vietnam.
+                    <br />
+                    <br />
+                    Discipleship - We seek to grow in both our knowledge of God &amp; our
+                    practical application of his Word to our lives.
+                    <br />
+                    <br />
+                    Fellowship - We're not in this alone. God has designed the Church to be
+                    a community to support each other.
+                    <br />
+                    <br />
+                    Service - We fulfill our mission as each person joins in to do their
+                    part in serving God in our community.
+                    <br />
+                    <br />
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-footer w3-theme-d1 w3-center">
+        <p>
+            <b>
+                Vietnamese Christian Assembly of God Church
+            </b>
+            <br />finding God in life and community...
+            <br />4525 E W.T. Harris Blvd, Charlotte, NC 28215
+            <br /> Phone: (704) 568-9522
+            <br />Email: <a href="mailto:vnagchurch@gmail.com">vnagchurch@gmail.com</a>
+            <br />facebook: <a href="https://www.facebook.com/vnagchurch/" target="_blank">VNAGCHURCH</a>
+
+        </p>
+    </footer>
+
+    <!-- Script For Side Navigation -->
+    <script>
+        function w3_open() {
+            var x = document.getElementById("mySidenav");
+            x.style.width = "300px";
+            x.style.textAlign = "center";
+            x.style.fontSize = "40px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidenav").style.display = "none";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+</html>
